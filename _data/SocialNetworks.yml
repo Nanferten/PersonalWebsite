@@ -13,7 +13,7 @@ facebook:
 
 github:
   name: "GitHub"
-  baseURL: "https://github.com/nanferten"
+  baseURL: "https://github.com/"
   icon: "fa-github"
 
 twitter:
@@ -28,7 +28,7 @@ reddit:
 
 email:
   name: "Email me"
-  baseURL: "mailto:nanferten@gmail.com"
+  baseURL: "mailto:"
   icon: "fa-envelope"
 
 linkedin:
