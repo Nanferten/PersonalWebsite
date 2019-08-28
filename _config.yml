@@ -1,17 +1,17 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Florian Determann
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Place to host my profile and my links
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+url: "https://nanferten.eu"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -87,13 +87,13 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+#  twitter: true
+#  facebook: true
+#  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "nanferten.eu"
 
 # --- Web Statistics Section --- #
 
