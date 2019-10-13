@@ -7,8 +7,9 @@ email: nanferten@gmail.com
 address: Germany, Lower Saxony, Lingen
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Contact, link: '/contact/'}
+- {name: About, link: '/about'}
+- {name: Contact, link: '/contact'}
+- {name: Privacy, link: '/privacy'}
 
 
 #-------------------------------
@@ -32,10 +33,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! <br> I’m Florian
+  hero-title: Florian Determann
 
 social:
 - {icon: "ti-github", link: "https://github.com/Nanferten"}
+- {icon: "ti-twitter", link: "https://twitter.com/Nanferten"}
+- {icon: "ti-email", link: "mailto:nanferten@gmail.com"}
+
 
 
 #-------------------------------
