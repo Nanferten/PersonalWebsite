@@ -9,7 +9,6 @@ address: Germany, Lower Saxony, Lingen
 menu:
 - {name: About, link: '/about'}
 - {name: Contact, link: '/contact'}
-- {name: Privacy, link: '/privacy'}
 
 
 #-------------------------------
@@ -37,7 +36,6 @@ hero:
 
 social:
 - {icon: "ti-github", link: "https://github.com/Nanferten"}
-- {icon: "ti-twitter", link: "https://twitter.com/Nanferten"}
 - {icon: "ti-email", link: "mailto:nanferten@gmail.com"}
 
 
@@ -47,7 +45,7 @@ social:
 
 # About Section
 blurb:
-  I'm currently an Software Engineer for Business Solutions. Further I discover the field of Data Science and build small projects.
+  Software Engineer. Business focused. Process improver.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -61,10 +59,11 @@ blurb-btn-name: know more
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#00BCD4', value: '40%'}
-- {name: Web App Development, color: '#E91E63', value: '80%'}
-- {name: Programming, color: '#8BC34A', value: '70%'}
-- {name: Agile, color: '#673AB7', value: '90%'}
+
+- {name: Web App Development, color: '#E91E63', value: '75%'}
+- {name: Agile, color: '#8BC34A', value: '90%'}
+- {name: CI/CD, color: '#673AB7', value: '70%'}
+- {name: Software Architecture, color: '#00BCD4', value: '35%'}
 
 #-------------------------------
 # Exprerience Section
