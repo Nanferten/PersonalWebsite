@@ -1,0 +1,21 @@
+{% if site.data.settings.programming-language %}
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.programming-language-title }}</h2>
+      </div>
+      {% for programming-language in site.data.settings.programming-language %}
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="{{ site.baseurl }}/assets/images/programming-language/{{ programming-language.icon }}" alt="{{ site.data.settings.programming-language-title }} icon">
+        <p class="mb-0">{{ programming-language.date }}</p>
+        <h4>{{ programming-language.name }}</h4>
+        <h6 class="text-light">{{ programming-language.organization }}</h6>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- ./programming-language -->
+{% endif %}

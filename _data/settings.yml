@@ -12,27 +12,11 @@ menu:
 
 
 #-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: "UA-139986962-1"
-
-
-#-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-
-#-------------------------------
 # Hero Section
 
 hero:
   hero-title: Florian Determann
+  sub-title: Software Engineer at Atos. Always looking for interesting side projects.
 
 social:
 - {icon: "ti-github", link: "https://github.com/Nanferten"}
@@ -45,10 +29,10 @@ social:
 
 # About Section
 blurb:
-  Software Engineer. Business focused. Process improver.
+  Rethinker. Creative. Realist.
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: Get to know me
 
 
 # About Page
@@ -60,15 +44,14 @@ blurb-btn-name: know more
 skills-title: Skills
 skills:
 
-- {name: Web App Development, color: '#E91E63', value: '75%'}
-- {name: Agile, color: '#8BC34A', value: '90%'}
-- {name: CI/CD, color: '#673AB7', value: '70%'}
-- {name: Software Architecture, color: '#00BCD4', value: '35%'}
+- {name: Web Development, color: '#E91E63', value: '75%'}
+- {name: Agile, color: '#8BC34A', value: '80%'}
+- {name: Configuration-management, color: '#673AB7', value: '50%'}
 
 #-------------------------------
-# Exprerience Section
+# Experience Section
 
-experience-title: Experience
+experience-title: Work Experience
 experience:
 - {name: Dual Student, icon: 'icon-1.png', date: 'Aug 2016 - Juli 2019', organization: 'Atos'}
 - {name: Software Engineer, icon: 'icon-2.png', date: 'Juli 2019 -', organization: 'Atos'}
@@ -79,8 +62,9 @@ experience:
 
 education-title: Education
 education:
-- {name: Bachelor of Science - Business Informatics , date: '2019', organization: 'OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES'}
-- {name: Abitur Economic, date: '2016', organization: 'BBS Lingen Wirtschaft'}
+- {name: (B. Sc.) Business Informatics , date: '2019', organization: 'Osnabrück University of Applied Sciences'}
+- {name: Computer Science Expert , date: '2018', organization: 'IHK Emsland'}
+- {name: Business High School (Abitur), date: '2016', organization: 'BBS Lingen Wirtschaft'}
 
 
 #-------------------------------
@@ -90,23 +74,45 @@ services-title: Qualities
 services:
 
 - {
-    name: Requirement Engineering,
+    name: Customer Engineering,
     icon: ti-world,
-    description: 'Finding requirments and providing answers for it is key for work.',
+    description: 'Finding requirments and providing answers in cooperation with customer.',
     active: # Add true to select section
   }
 - {
-    name: Software Development,
+    name: Edge Enthusiast,
     icon: ti-rocket,
-    description: 'My current provesion is to develop web application.',
+    description: 'Enjoying to work in promissing technologies and always willing to learn new ways.',
     active: true # Add true to select section
   }
 - {
     name: Economic View,
     icon: ti-signal,
-    description: 'Always business in focus in providing services.',
+    description: 'Realistic view and good understanding of business needs and restriction.',
     active: # Add true to select section
   }
+
+
+#-------------------------------
+# Programming language Section
+programming-language-title: Programming languages
+programming-language:
+  - { name: Java, icon: '', level: '' }
+  - { name: C#, icon: '', level: '' }
+
+#-------------------------------
+# Framework Section
+framework-title: Framework
+framework:
+  - { name: Angular, icon: '', level: '' }
+  - { name: .NET Core, icon: '', level: '' }
+
+#-------------------------------
+# Tools Section
+tools-title: Tools
+tools: 
+  - { name: Angular, icon: '', level: '', years: '' }
+  - { name: .NET Core, icon: '', level: '', years: '' }
 
 #-------------------------------
 # Contact Section
