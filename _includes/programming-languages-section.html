@@ -8,7 +8,7 @@
       </div>
       {% for programming-language in site.data.settings.programming-language %}
       <div class="col-lg-3 col-md-4 text-center">
-        <img src="{{ site.baseurl }}/assets/images/programming-language/{{ programming-language.icon }}" alt="{{ site.data.settings.programming-language-title }} icon">
+        <img src="{{ site.baseurl }}/assets/images/programming-language/{{ programming-language.icon }}" alt="{{ site.data.settings.programming-language-title }} icon" style="max-height: 128px;"> 
         <p class="mb-0">{{ programming-language.date }}</p>
         <h4>{{ programming-language.name }}</h4>
         <h6 class="text-light">{{ programming-language.organization }}</h6>
