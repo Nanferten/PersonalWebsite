@@ -7,7 +7,6 @@ email: nanferten@gmail.com
 address: Germany, Lower Saxony, Lingen
 
 menu:
-- {name: Stack, link: '/stack'}
 - {name: Contact, link: '/contact'}
 
 
@@ -16,7 +15,7 @@ menu:
 
 hero:
   hero-title: Florian Determann
-  sub-title: Software Engineer at Atos.
+  sub-title: Software Engineer.
 
 social:
 - {icon: "ti-github", link: "https://github.com/Nanferten"}
@@ -28,24 +27,8 @@ social:
 #-------------------------------
 # About (Section and Page)
 
-# About Section
-blurb:
-  Realistic. Inventive. Logical.
-
-
 
 # About Page
-
-
-#-------------------------------
-# Skills Section
-
-skills-title: Skills
-skills:
-
-- {name: Web Development, color: '#E91E63', value: '55%'}
-- {name: Agile, color: '#8BC34A', value: '60%'}
-- {name: Configuration-management, color: '#673AB7', value: '30%'}
 
 #-------------------------------
 # Experience Section
@@ -90,119 +73,6 @@ services:
     description: 'Realistic view and good understanding of business needs and restriction.',
     active: # Add true to select section
   }
-
-  #-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
-portfolio-home-item:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-
-
-# Portfolio Page
-portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
-
-portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-
-#-------------------------------
-# Programming language Section
-programming-language-title: Programming languages
-programming-language:
-  - { name: Java, icon: 'java-original.svg', level: '' }
-  - { name: C#, icon: 'csharp-plain.svg', level: '' }
-  - { name: Typescript, icon: 'typescript-original.svg', level: '' }
-  - { name: Python, icon: 'Python-logo-notext.svg', level: '' }
-
-#-------------------------------
-# Framework Section
-framework-title: Frameworks
-framework:
-  - { name: Angular, icon: 'angular.svg', level: '' }
-  - { name: .NET Core, icon: 'NET_Core_Logo.svg', level: '' }
-  - { name: Spring, icon: 'springio-icon.svg', level: '' }
-
-#-------------------------------
-# Tools Section
-tools-title: Tools
-tools: 
-  - { name: Docker, icon: 'docker-plain.svg', level: '', years: '' }
-  - { name: Git, icon: 'git-original.svg', level: '', years: '' }
-  - { name: Apache, icon: 'apache-original.svg', level: '', years: '' }
-  - { name: MySql, icon: 'mysql-original.svg', level: '', years: '' }
 
 #-------------------------------
 # Contact Section
