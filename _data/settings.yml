@@ -4,7 +4,7 @@
 title: Florian Determann
 logo: icon.white.png
 email: nanferten@gmail.com
-address: Germany, Lower Saxony, Lingen
+address: Germany, Lower Saxony, Meppen
 
 menu:
 - {name: Contact, link: '/contact'}
@@ -35,8 +35,8 @@ social:
 
 experience-title: Work Experience
 experience:
-- {name: Dual Student, icon: 'icon-1.png', date: 'Aug 2016 - Juli 2019', organization: 'Atos'}
-- {name: Software Engineer, icon: 'icon-2.png', date: 'Juli 2019 -', organization: 'Atos'}
+- {name: Dual Student, icon: 'undraw_predictive_analytics_kf9n.svg', date: 'Aug 2016 - Juli 2019', organization: 'Atos'}
+- {name: Software Engineer, icon: 'undraw_code_review_l1q9.svg', date: 'Juli 2019 -', organization: 'Atos'}
 
 
 #-------------------------------
@@ -58,19 +58,19 @@ services:
 - {
     name: Customer Engineering,
     icon: ti-world,
-    description: 'Finding requirments and providing answers in cooperation with customer.',
+    description: 'Evaluating requirements and providing answers in cooperation with customer.',
     active: # Add true to select section
   }
 - {
-    name: Edge Enthusiast,
+    name: Adaptive,
     icon: ti-rocket,
-    description: 'Enjoying to work in promissing technologies and always willing to learn new ways.',
+    description: 'Willing to learn and experienced in different modern approaches to issues.',
     active: true # Add true to select section
   }
 - {
     name: Economic View,
     icon: ti-signal,
-    description: 'Realistic view and good understanding of business needs and restriction.',
+    description: 'Realistic view and good understanding of business needs and restrictions.',
     active: # Add true to select section
   }
 
