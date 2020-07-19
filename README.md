@@ -1,6 +1,6 @@
 # Personal Website
 
-> Forked from [Beatiful Jekyll](https://github.com/daattali/beautiful-jekyll)
+> Forked from [Themefisher - kross-jekyll-portfolio-template](https://github.com/themefisher/kross-jekyll-portfolio-template)
 
 This code is the personal website of Florian Determann.
 
