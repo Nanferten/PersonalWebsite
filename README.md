@@ -1,5 +1,7 @@
 # Personal Website
 
+> Forked from [Beatiful Jekyll](https://github.com/daattali/beautiful-jekyll)
+
 This code is the personal website of Florian Determann.
 
 ## Purpose
