@@ -6,7 +6,7 @@ This code is the personal website of Florian Determann.
 
 ## Purpose
 
-This website is primarily a basic representation of the profile of the owner.
+This website is primarily a basic representation of basic information about me.
 It contains important professional references and information.
 
 Secondly it has been used to discover and test jekyll as a framework.
@@ -18,23 +18,16 @@ Secondly it has been used to discover and test jekyll as a framework.
 
 ### Docker
 
-The repository contains all necessary informations to run this application with docker-compose.
+Run the following command in any docker compliant environment. This will forward the port to 4000 and the debug port to 35729.
 
-#### Start up
-``
-docker-compose up
-``
-
-
-#### Shut down
-
-``
-docker-compose down
-``
-
-For further information about docker-compose and docker, visit tutorials.
-
-
+```
+docker run -v $(pwd):/srv/jekyll \
+    -p 4000:4000 \
+    -p 35729:35729
+    -it \
+    jekyll/jekyll:latest \
+    jekyll serve
+```
 ### Native
 
 > [!IMPORTANT]
@@ -43,9 +36,5 @@ For further information about docker-compose and docker, visit tutorials.
 The project should be run with bundler.
 
 ``
-builder jekyll serve
+builder exec jekyll serve
 ``
-
-## Further notice
-
-If you need any further informations look up this website!
